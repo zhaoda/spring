@@ -1,0 +1,122 @@
+.spa-panel-menu {
+	.container {
+		width: 12em;
+		max-width: 100%;
+		height: 100%;
+		padding: 0;
+		background: @lighter;
+
+		@media screen and (min-width: 20em) {
+			width: 16em;
+		}
+
+	  @media screen and (min-width: @screen-tablet) {
+	  	display: none;
+	  }
+
+	}
+
+	.container-shadow {
+		position: absolute;
+		width: 1px;
+		top: 0;
+		right: -1px;
+		bottom: 0;
+		.box-shadow(0 0 4px @dark);
+		overflow: hidden;
+		
+	  @media screen and (min-width: @screen-tablet) {
+	  	display: none;
+	  }
+	}
+}
+
+.menu {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 2px;
+	padding-bottom: 1em;
+	box-sizing: border-box;
+	overflow: hidden;
+
+  @media screen and (min-width: @screen-tablet) {
+  	height: auto;
+  }
+
+	menu {
+		width: 100%;
+		margin: 1em 0 0;
+		padding: 0;
+		.box-shadow(0 0 1px @grey);
+		background: @white;
+		list-style: none;
+		overflow: hidden;
+
+		li {
+			position: relative;
+			height: 2em;
+			line-height: 2em;
+			margin: 0 0 0 1.5em;
+			font-size: 1.2em;
+			.box-shadow(2px 0px 1px @greyer);
+
+			&:first-child {
+				margin-top: -1px;
+				padding-top: 1px;
+			}
+
+			a {
+				display: block;
+				height: 100%;
+				padding: 0 0.5em 0 0.2em;
+				color: @darker;
+				background: @white;
+				overflow: hidden;
+			}
+
+			span {
+				position: absolute;
+				top: 16px;
+				left: -14px;
+				width: 6px;
+				height: 6px;
+				.border-radius(50%);
+				overflow: hidden;
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 15px;
+				right: 15px;
+				width: 6px;
+				height: 6px;
+				border-width: 0 2px 2px 0;
+				border-style: solid;
+				border-color: @lighter;
+				.rotate(-45deg);
+			}
+
+			&:active {
+				background: @lighter;
+			}
+		}
+	}
+
+	footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		margin: 1em;
+		font-weight: 100;
+		color: @light;
+		font-style: italic;
+
+		a {
+			font-weight: 200;
+			color: @light;
+		}
+	}
+}
+
+

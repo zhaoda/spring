@@ -1,0 +1,42 @@
+.side {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 15em;
+	z-index: 3000;
+	box-shadow: 0 0 4px @greyer;
+
+  @media screen and (min-width: @screen-tablet) {
+  	display: block;
+  }
+
+	@media screen and (min-width: @screen-desktop) {
+		width: 16em;
+	}
+
+	@media screen and (min-width: @screen-large) {
+		width: 18em;
+		left: 4em;
+	}
+
+	.container {
+		background: @lighter;
+
+		.logo {
+			margin: 20px 10px;
+			font-size: 3em;
+			font-family: 'volkhov';
+		}
+
+		.desc {
+			box-shadow: none;
+
+			a {
+				color: @greyer;
+			}
+		}
+	}
+
+}
