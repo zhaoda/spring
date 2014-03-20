@@ -20,7 +20,7 @@
     // my blog title
     title: 'Spring',
     // my blog description
-    desc: 'A blog engine written by github issues [Fork me on GitHub](https://github.com/zhaoda/spring)',
+    desc: 'A blog engine written by GitHub Issues [Fork me on GitHub](https://github.com/zhaoda/spring)',
     // my github username
     owner: 'zhaoda',
     // creator's username

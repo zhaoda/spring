@@ -9,14 +9,16 @@
           <a href="#" class="btn-menu preventlink">Menu</a>\
         </header>\
         <div class="container">\
-          <%if($.spring.config.desc) {%>\
-          <div class="desc markdown"><%=#marked($.spring.config.desc)%></div>\
-          <%}%>\
-          <section class="issuelist">\
-            <div class="pullup">\
-              <span class="ball"></span><span class="ball"></span>\
-            </div>\
-          </section>\
+          <div class="container-inner">\
+            <%if($.spring.config.desc) {%>\
+            <div class="desc markdown"><%=#marked($.spring.config.desc)%></div>\
+            <%}%>\
+            <section class="issuelist">\
+              <div class="pullup">\
+                <span class="ball"></span><span class="ball"></span>\
+              </div>\
+            </section>\
+          </div>\
         </div>',
       render = template.compile(source)
 

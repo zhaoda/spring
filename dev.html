@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no, email=no" />
 <meta name="x5-orientation" content="portrait" />
 <meta name="x5-fullscreen" content="true" />
@@ -38,7 +39,7 @@ $.extend(spring.config, {
   // my blog title
   title: 'Spring',
   // my blog description
-  desc: "A blog engine written by github issues [Fork me on GitHub](https://github.com/zhaoda/spring)",
+  desc: "A blog engine written by GitHub Issues  \n[Fork me on GitHub](https://github.com/zhaoda/spring)",
   // my github username
   owner: 'zhaoda',
   // creator's username
@@ -47,12 +48,14 @@ $.extend(spring.config, {
   repo: 'spring',
   // custom page
   pages: [
+    {name: 'About Spring', number: 1},
+    {name: 'Quick Start', number: 2}
   ]
 })
 </script>
 </head>
 <body>
-<!--[if lt IE 8]>
+<!--[if lt IE 9]>
 <script>
 location.href = 'https://github.com/' + spring.config.owner + '/' + spring.config.repo + '/issues?page=1&state=open'
 </script>

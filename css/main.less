@@ -49,14 +49,20 @@ html {
   color: @darker;
   font-size: 1em;
   line-height: 1.4;
-  -webkit-user-select: none;
-  user-select: none;
+
+  @media screen and (max-width: @screen-tablet) {
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }
 
 body {
   font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
-  -webkit-user-select: none;
-  user-select: none;
+
+  @media screen and (max-width: @screen-tablet) {
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }
 
 ::-moz-selection {
@@ -167,6 +173,12 @@ a {
     }
   }
 
+  .container-inner {
+    min-height: 100%;
+    margin: 0 0 2px 0;
+    overflow: hidden;
+  }
+
 }
 
 header {
@@ -177,8 +189,8 @@ header {
   height: 3em;
   overflow: hidden;
   z-index: 1;
-  background: @lighter;
-  .box-shadow(0 0 3px @light);
+  background: @dark;
+  color: @lighter;
 
   @media screen and (min-width: @screen-tablet) {
     display: none;
@@ -190,7 +202,7 @@ header {
     top: 0.6em;
     margin: 0;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 200;
 
     span {
       display: block;
@@ -206,9 +218,9 @@ header {
 
 .btn-menu, .btn-back {
   float: left;
-  font-weight: 100;
-  margin: 0.45em;
-  padding: 0.4em;
-  background: @light;
-  .border-radius(4px);
+  font-weight: 200;
+  margin: 0.65em;
+  padding: 0.2em;
+  background: @lighter;
+  .border-radius(3px);
 }

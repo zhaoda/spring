@@ -10,11 +10,13 @@
         </header>\
         <a href="#" class="btn-back preventlink">Back</a>\
         <div class="container">\
-          <section class="issues" data-number="<%=number%>">\
-            <div class="pullup">\
-              <span class="ball"></span><span class="ball"></span>\
-            </div>\
-          </section>\
+          <div class="container-inner">\
+            <section class="issues" data-number="<%=number%>">\
+              <div class="pullup">\
+                <span class="ball"></span><span class="ball"></span>\
+              </div>\
+            </section>\
+          </div>\
         </div>',
       sourceContent = '\
         <h1 class="title"><%=title%></h1>\

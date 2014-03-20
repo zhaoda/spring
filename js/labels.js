@@ -9,12 +9,14 @@
           <a href="#" class="btn-menu preventlink">Menu</a>\
         </header>\
         <div class="container">\
-          <div class="desc markdown"><p>Labels / <strong><%=label%></strong></p></div>\
-          <section class="issuelist" data-labels="<%=label%>">\
-            <div class="pullup">\
-              <span class="ball"></span><span class="ball"></span>\
-            </div>\
-          </section>\
+          <div class="container-inner">\
+            <div class="desc markdown"><p>Labels / <strong><%=label%></strong></p></div>\
+            <section class="issuelist" data-labels="<%=label%>">\
+              <div class="pullup">\
+                <span class="ball"></span><span class="ball"></span>\
+              </div>\
+            </section>\
+          </div>\
         </div>',
       render = template.compile(source)
 
