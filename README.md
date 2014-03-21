@@ -150,3 +150,20 @@ $ grunt
 *   Browser `http://localhost/spring/index.html`, enter the runtime mode.
 *   If there is no problem, commit and push the code.
 *   And you're done! Good luck!
+
+## Report a bug
+
+*   Check if the bug is already fixed in the [master branch](https://github.com/zhaoda/spring/commits/master) since the last release.
+*   Check [existing issues](https://github.com/zhaoda/spring/issues). 
+*   [Open a new one](https://github.com/zhaoda/spring/issues/new), including exact browser & platform information. 
+
+## Who used
+
+*   http://zhaoda.net/spring
+*   http://zhaoda.net
+
+If you are using, please [tell me](https://github.com/zhaoda/spring/issues/6).
+
+## License
+
+Spring is available under the terms of the [MIT License](https://raw.githubusercontent.com/zhaoda/spring/master/LICENSE "MIT License").
