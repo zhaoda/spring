@@ -8,6 +8,8 @@ Spring has responsive templates, looking good on mobile, tablet, and desktop.Gra
 
 Get up and running in seconds.
 
+[中文介绍](http://zhaoda.net/#issues/1)
+
 ## Quick start guide
 
 For the impatient, here's how to get a Spring blog site up and running.
