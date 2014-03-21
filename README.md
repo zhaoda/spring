@@ -1,4 +1,4 @@
-# Spring
+# Spring [![Build Status](https://travis-ci.org/zhaoda/spring.png?branch=master)](https://travis-ci.org/zhaoda/spring) [![devDependency Status](https://david-dm.org/zhaoda/spring/dev-status.png)](https://david-dm.org/zhaoda/spring#info=devDependencies) [![Total views](https://sourcegraph.com/api/repos/github.com/zhaoda/spring/counters/views.png)](https://sourcegraph.com/github.com/zhaoda/spring)
 
 Spring is a blog engine written by GitHub Issues, or is a simple, static web site generator. No more server and database, you can setup it in free hosting with GitHub Pages as a repository, then post the blogs in the repository Issues. 
 
