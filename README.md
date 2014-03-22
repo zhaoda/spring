@@ -42,16 +42,8 @@ For the impatient, here's how to get a Spring blog site up and running.
       ]
     })
     ```
-*   Open the `index.appcache` appcache manifest file to modify version time.
 
-    ```
-# Version 2014-03-20 13:23:18
-```
 *    Put your domain into the `CNAME ` file if you have.
-
-    ```
-spring.zhaoda.net
-```
 
 *    Commit your change and push it.
 
@@ -119,12 +111,9 @@ spring/
 |    ├── normalize.less #normalize style
 |    ├── pull2refresh.less #pull2refresh widget style
 |    └── side.html  #side panel style
-├── CNAME #costom domain config
 ├── dev.html #used to develop
 ├── favicon.ico #website icon
 ├── Gruntfile.js #Grunt task config
-├── index.appcache #runtime appcache manifest
-├── index.appcache.tmpl #the template of index.appcache
 ├── index.html #used to runtime
 └── package.json  #nodejs install config
 ```

@@ -68,15 +68,6 @@ module.exports = function(grunt) {
 		
 	})
 
-	// Release task.
-	grunt.template.addDelimiters('release', '<#', '#>')
-	grunt.task.registerTask('release', 'Release task.', function() {
-		var appcachetmpl = grunt.file.read('index.appcache.tmpl'),
-				version = grunt.template.today('yyyy-mm-dd HH:MM:ss')
-
-		grunt.file.write('index.appcache', grunt.template.process(appcachetmpl, {data: {version: version}, delimiters: 'release'}))
-	})
-
 	// These plugins provide necessary tasks.
 	grunt.loadNpmTasks('grunt-contrib-concat')
 	grunt.loadNpmTasks('grunt-contrib-jshint')
@@ -93,8 +84,7 @@ module.exports = function(grunt) {
 		'concat', 
 		'uglify',
 		'less',
-		'clean',
-		'release'
+		'clean'
 	])
 
 	// // Test task.

@@ -1,7 +1,7 @@
 {
   "name": "spring",
   "title": "Spring",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Spring is a blog engine written by github issues",
   "repository": {
     "type": "git",
