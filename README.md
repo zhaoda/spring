@@ -50,12 +50,12 @@ For the impatient, here's how to get a Spring blog site up and running.
 ### And then
 
 *   Goto your repository settings page to turn on the `Issues` feature.
-*   Browser this repository's issues page, like this *https://github.com/zhaoda/spring/issues?state=open*.
+*   Browser this repository's issues page, like this `https://github.com/your-username/your-repo-name/issues?state=open`.
 *   Click the `New Issue` button to just write some content as a new one blog.
 
 ### Finally
 
-*   Browser this repository's GitHub Pages url, like this *http://zhaoda.github.io/spring*, you will see your Spring blog, have a test.
+*   Browser this repository's GitHub Pages url, like this `http://your-username.github.io/your-repo-name`, you will see your Spring blog, have a test.
 *   And you're done!
 
 ## Custom development
@@ -140,6 +140,7 @@ $ grunt
 
 *   Browser `http://localhost/spring/index.html`, enter the runtime mode.
 *   If there is no problem, commit and push the code.
+*   Don't forget to merge `master` branch into `gh-pages` branch if you have.
 *   And you're done! Good luck!
 
 ## Report a bug
