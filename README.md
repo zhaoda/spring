@@ -42,9 +42,7 @@ For the impatient, here's how to get a Spring blog site up and running.
       ]
     })
     ```
-
 *    Put your domain into the `CNAME ` file if you have.
-
 *    Commit your change and push it.
 
 ### And then
@@ -137,7 +135,6 @@ $ npm install
     ```bash
 $ grunt
 ```
-
 *   Browser `http://localhost/spring/index.html`, enter the runtime mode.
 *   If there is no problem, commit and push the code.
 *   Don't forget to merge `master` branch into `gh-pages` branch if you have.
