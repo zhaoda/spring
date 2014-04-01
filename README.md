@@ -157,6 +157,3 @@ If you are using, please [tell me](https://github.com/zhaoda/spring/issues/6).
 
 Spring is available under the terms of the [MIT License](https://raw.githubusercontent.com/zhaoda/spring/master/LICENSE "MIT License").
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zhaoda/spring/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
