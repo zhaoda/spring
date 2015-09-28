@@ -155,5 +155,5 @@ If you are using, please [tell me](https://github.com/zhaoda/spring/issues/6).
 
 ## License
 
-Spring is available under the terms of the [MIT License](https://raw.githubusercontent.com/zhaoda/spring/master/LICENSE "MIT License").
+Spring is available under the terms of the [MIT License](https://raw.githubusercontent.com/zhaoda/spring/master/LICENSE "MIT License")
 
