@@ -149,7 +149,7 @@ $ grunt
 ## Who used
 
 *   http://zhaoda.net/spring
-*   http://zhaoda.net
+*   http://zhaoda.net/blog
 
 If you are using, please [tell me](https://github.com/zhaoda/spring/issues/6).
 
