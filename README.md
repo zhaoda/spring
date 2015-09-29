@@ -8,7 +8,7 @@ Spring has responsive templates, looking good on mobile, tablet, and desktop.Gra
 
 Get up and running in seconds.
 
-[中文介绍](http://zhaoda.net/#issues/1)
+[中文介绍](http://zhaoda.net/2014/03/21/%E4%BD%BF%E7%94%A8Spring%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html)
 
 ## Quick start guide
 
